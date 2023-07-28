@@ -1,0 +1,8 @@
+### health
+GET http://127.0.0.1:3000/health
+Content-Type: application/json
+
+### test
+GET http://127.0.0.1:3000/test
+Content-Type: application/json
+Authorization: Basic dGVzdDp0ZXN0
