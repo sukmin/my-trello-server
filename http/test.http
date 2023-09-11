@@ -5,4 +5,14 @@ Content-Type: application/json
 ### test
 GET http://127.0.0.1:3000/test
 Content-Type: application/json
-Authorization: Basic dGVzdDp0ZXN0
+Authorization: Basic a3dvbnN1a21pbkBuYXZlci5jb206MTIzNA==
+
+
+### login
+POST http://127.0.0.1:3000/login
+Content-Type: application/json
+
+{
+"email": "kwonsukmin@naver.com",
+"password": "1234"
+}
